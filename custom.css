@@ -1,0 +1,60 @@
+
+
+
+
+
+
+
+
+
+
+/* Multi step form design - 2101  */
+
+#m2101{
+    height: 100vh;
+    background: rgba(169, 169, 169, 0.178);
+    position: relative;
+}
+.form-box{
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 0 15px;
+    overflow: hidden;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.form-box .form {
+    position: absolute;
+    top: 50%;
+    width: 249px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.form-btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* form 2  */
+#form2 {
+    left: 475px;
+}
+/* form 3 */
+
+#form3 {
+    left: 475px;
+}
+
+/* Multi step form design - 2101  */

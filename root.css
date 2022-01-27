@@ -1,0 +1,91 @@
+/* ===   Playfair Display and Exo Font === */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@200;300;400;500;600;700;900&display=swap');
+
+
+
+
+:root {
+    --mk-primary: #4989fd;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    color: #050748;
+    margin: 0;
+}
+
+/* h1 style for home banner / hero  */
+
+h1 {
+    font-weight: 700;
+    line-height: 56px;
+    font-size: 53px;
+    padding: 14px 0;
+    color: #333;
+}
+h2 {
+    font-weight: 600;
+    line-height: 50px;
+    font-size: 35px;
+}
+h3 {
+    font-size: 32px;
+    line-height: 34px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+h4 {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: var(--mk-fw-700);
+}
+h5 {
+    color: #e60072  ;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+/* h6 style for home banner / hero  */
+h6 {
+    font-size: 23px;
+    line-height: 29px;
+    color: #60697b;
+}
+P {
+    color: #999999;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+    font-weight: 400;
+}
+.mk-btn {
+    padding: 10px 25px;
+    font-size: 18px;
+    color: #fff;
+    display: inline-block;
+    background: #ff7e85;
+    margin-top: 33px;
+    border-radius: 3px;
+}
+
+

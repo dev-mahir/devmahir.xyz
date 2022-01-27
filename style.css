@@ -1,0 +1,214 @@
+/*------------------------------------------------------------------
+Project:    Quisly One page Personal Portfolio
+Version:    1.0.0
+
+[Table of contents]
+
+1. Body
+2. Header
+3. Footer
+4. Blog
+5. Section
+6. Home Banner
+7. About
+8. Services
+9. Portfolio
+10. Testimonial
+11. Contact Us
+*/
+
+/*====   Custom css ====*/
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    padding: 0 !important;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+.por {
+    position: relative;
+}
+
+button:focus {
+    outline: 0 !important;
+}
+input.form-control:focus {
+    outline: 0 !important;
+    box-shadow: transparent !important;
+    border-color: transparent !important;
+}
+textarea:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+    border-color: transparent !important;
+}
+select:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.p-40 {
+    padding: 40px;
+}
+
+.py-120 {
+    padding: 120px 0;
+}
+.py-110 {
+    padding: 110px 0;
+}
+.py-100 {
+    padding: 100px 0;
+}
+.py-90 {
+    padding: 90px 0;
+}
+.py-80 {
+    padding: 80px 0;
+}
+.py-70 {
+    padding: 70px 0;
+}
+.py-60 {
+    padding: 60px 0;
+}
+.py-50 {
+    padding: 50px 0;
+}
+.py-40 {
+    padding: 40px 0;
+}
+.py-30 {
+    padding: 30px 0;
+}
+.py-20 {
+    padding: 20px 0;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+.pt-50 {
+    padding-top: 50px;
+}
+.pt-70 {
+    padding-top: 70px;
+}
+.pt-100 {
+    padding-top: 100px;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+.pb-50 {
+    padding-bottom: 50px;
+}
+.pr-100 {
+    padding-right: 100px;
+}
+
+.mx-100 {
+    margin: 0 100px;
+}
+.br-2 {
+    border-radius: 2px;
+}
+.br-4 {
+    border-radius: 4px;
+}
+.br-8 {
+    border-radius: 8px;
+}
+.br-10 {
+    border-radius: 10px;
+}
+.br-15 {
+    border-radius: 15px;
+}
+.vcenter {
+    justify-content: center;
+    text-align: center;
+}
+.hcenter {
+    align-items: center !important;
+    display: flex !important;
+}
+.vhcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-transparent {
+    background: transparent;
+}
+
+.bg-header {
+    background: #eef1f6;
+}
+.bggray {
+    background: var(--mk-gray);
+}
+.bgdark {
+    background: #1d2224 !important;
+}
+.bg-primary {
+    background: var(--mk-primary);
+}
+.primary {
+    color: var(--mk-primary);
+}
+
+button:focus {
+    outline: 0 !important;
+    box-shadow: unset !important;
+}
+
+#product-add-box {
+    display: none;
+}
+
+.product-gallery {
+    position: relative;
+}
+p#discount {
+    position: absolute;
+    top: 3px;
+    background: cornflowerblue;
+    color: #fff;
+    display: inline-block;
+    right: 4px;
+    padding: 5px;
+    border-radius: 7px;
+}
+.product-gallery h2 {
+     font-size: 19px;
+     line-height: 27px;
+     margin: 0;
+ }
+.price span {
+    font-size: 15px;
+    font-weight: 700;
+}
